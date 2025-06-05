@@ -1,0 +1,52 @@
+/* Failas: assets/css/custom.css */
+
+body {
+  background: none !important;
+}
+
+#wrapper {
+  background: none !important;
+}
+
+#video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+#video-bg video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#sponsors {
+  padding: 1rem;
+  background: white;
+  margin-top: 3rem;
+}
+
+#sponsors h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.sponsor-logos {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsor-logo {
+  max-width: 180px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}

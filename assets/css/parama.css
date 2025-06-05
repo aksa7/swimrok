@@ -1,0 +1,26 @@
+#donation-amount {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.preset-buttons {
+  margin: 15px 0;
+}
+
+.preset-buttons button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 20px;
+  background: #e0e0e0;
+  border: none;
+  cursor: pointer;
+}
+
+.preset-buttons button:hover {
+  background: #ccc;
+}
