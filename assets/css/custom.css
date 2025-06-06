@@ -50,3 +50,10 @@ body {
   height: auto;
   object-fit: contain;
 }
+
+.intro-logo {
+  height: 150px;
+  width: auto;
+  display: block;
+  margin: auto;
+}
