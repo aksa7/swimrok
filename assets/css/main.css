@@ -3197,8 +3197,8 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.sponsor-logos {
-				max-width: 45px;
-				place-self: center;
+				max-width: 60px;
+				place-self: center !important;
   }
 			.pagination .page, .pagination .extra {
 				display: none;
