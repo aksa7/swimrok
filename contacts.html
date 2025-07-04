@@ -43,33 +43,59 @@
         <!-- Main -->
         <main id="main">
             <section class="post">
-                <p><strong>Rekvizitai</strong></p>
-                <strong>Plaukimo klubas „SwimRok“</strong>
-                <p>Juridinio asmens kodas: 306736033
-                    <br>
-                    Bankas: Swedbank AB <br>
-                    IBAN: LT77 7300 0101 9321 6850 
-                </p>
+    <div class="contact-container">
+        <div class="contact-info">
+            <p><strong>Rekvizitai</strong></p>
+            <strong>Plaukimo klubas „SwimRok“</strong>
+            <p>Juridinio asmens kodas: 306736033 <br>
+               Bankas: Swedbank AB <br>
+               IBAN: LT77 7300 0101 9321 6850
+            </p>
+            <p><strong>Kontaktinė informacija</strong></p>
+            <ul>
+                <li><strong>Adresas:</strong> Taikos g. 11-41, Rokiškis</li>
+                <li><strong>Telefonas:</strong> +370 624 14857</li>
+                <li><strong>El. paštas:</strong> swimrok@gmail.com</li>
+            </ul>
+            <p><strong>Bendraukime – SwimRok laukia jūsų žinutės </strong></p>
+            <p>Turite idėjų bendradarbiavimui? Klausimų apie mūsų projektus? <br>
+                Norite prisidėti prie vaikų fizinės ir emocinės gerovės kūrimo? <br>
+                <strong>Parašykite mums. Esame tam, kad kurtume prasmingus pokyčius kartu.</strong>
+            </p>
+            <p><strong>Atsakome per 3-5 darbo dienas.</strong><br>
+               Įsitikinkite, kad el. pašto adresas įvestas teisingai – tik taip galėsime su jumis susisiekti.
+            </p>
+        </div>
 
-                <p><strong>Kontaktinė informacija</strong></p>
-
-                <ul>
-                    <li><strong>Adresas:</strong> Taikos g. 11-41, Rokiškis</li>
-                    <li><strong>Telefonas:</strong> +370 624 14857</li>
-                    <li><strong>El. paštas:</strong> swimrok@gmail.com</li>
+        <div class="contact-form">
+            <!-- Visa tavo forma čia -->
+            <form method="POST" action="https://formspree.io/f/xyzwaykk">
+                <div class="fields">
+                    <div class="field">
+                        <label for="name">Vardas</label>
+                        <input type="text" name="name" id="name" required />
+                    </div>
+                    <div class="field">
+                        <label for="email">El.Paštas</label>
+                        <input type="email" name="email" id="email" required />
+                    </div>
+                    <div class="field">
+                        <label for="message">Žinutė</label>
+                        <textarea name="message" id="message" rows="3" required></textarea>
+                    </div>
+                </div>
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="hidden" name="_next" value="https://swimrok.lt/dekojame.html" />
+                <ul class="actions">
+                    <li><input type="submit" value="Siųsti žinutę" /></li>
                 </ul>
-
-                <p><strong>Bendraukime – SwimRok laukia jūsų žinutės </strong></p>
-
-                <p>Turite idėjų bendradarbiavimui? Klausimų apie mūsų projektus? 
-                    Norite prisidėti prie vaikų fizinės ir emocinės gerovės kūrimo? <br>
-                    <strong>Parašykite mums. Esame tam, kad kurtume prasmingus pokyčius kartu.</strong>
-                </p>
-                <p>
-                    <strong>Atsakome per 3-5 darbo dienas.</strong> <br> 
-Įsitikinkite, kad el. pašto adresas įvestas teisingai – tik taip galėsime su jumis susisiekti.
-                </p>
-            </section>
+            </form>
+            <section class="split contact">
+    </section>
+        </div>
+    </div>
+    
+</section>
             <aside id="sponsors">
   <!-- <h3>Rėmėjai</h3> -->
   <div class="sponsor-logos">
@@ -82,7 +108,7 @@
         </main>
         
 <!-- Footer -->
-<footer id="footer">
+<!-- <footer id="footer">
     <section>
         <form method="POST" action="https://formspree.io/f/xyzwaykk">
     <div class="fields">
@@ -98,7 +124,7 @@
             <label for="message">Žinutė</label>
             <textarea name="message" id="message" rows="3" required></textarea>
         </div>
-    </div>
+    </div> -->
 
     <!-- Spam apsauga -->
     <input type="text" name="_gotcha" style="display:none" />
@@ -106,24 +132,7 @@
     <!-- Nukreipimas po sėkmingo siuntimo -->
     <input type="hidden" name="_next" value="https://swimrok.lt/dekojame.html" />
 
-    <ul class="actions">
-        <li><input type="submit" value="Siųsti žinutę" /></li>
-    </ul>
 </form>
-    </section>
-    <section class="split contact">
-        <section class="alt">
-            <h3>Adresas</h3>
-            <p>Taikos g. 11-41, Rokiškis</p>
-        </section>
-        <section>
-            <h3>Telefono Numeris</h3>
-            <p><a href="tel:+37062414857">+370 624 14857</a></p>
-        </section>
-        <section>
-            <h3>El.Paštas</h3>
-            <p><a href="mailto:swimrok@gmail.com">swimrok@gmail.com</a></p>
-        </section>
     </section>
 </footer>
 

@@ -35,13 +35,28 @@ body {
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
 }
-
 .sponsor-logos {
   display: flex;
   flex-direction: row;
   gap: 20px;
   justify-content: center;
   align-items: center;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px; /* Tarpo dydis tarp teksto ir formos */
+    flex-wrap: wrap;
+}
+.contact-info {
+    flex: 1 1 50%;
+    min-width: 300px;
+}
+
+
+.contact-form {
+    flex: 1 1 40%;
+    min-width: 300px;
 }
 
 .sponsor-logo {
@@ -50,10 +65,24 @@ body {
   height: auto;
   object-fit: contain;
 }
-
 .intro-logo {
-  height: 150px;
+  height: 45vh;
   width: auto;
   display: block;
   margin: auto;
 }
+.news-content {
+    text-align: center;
+    max-width: 800px; /* Nebūtina, bet vizualiai maloniau */
+    margin: 0 auto;
+}
+.news-content p {
+    text-align: center;
+}
+.news-content h3 {
+    margin-bottom: 20px;
+}
+.moreInfo {
+text-align: center;
+}
+
