@@ -290,7 +290,14 @@ ul.actions {
   background: #003366;
   color: white;
 }
-
+@media (max-width: 400px) {
+  .circleLogo {
+  height: 45vh;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+}
 
 @media (max-width: 768px) {
   .two-columns {
