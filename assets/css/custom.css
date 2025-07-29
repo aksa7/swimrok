@@ -127,6 +127,7 @@ text-align: center;
 .text-side {
   flex: 1 1 50%;
   min-width: 300px;
+  text-align: center;
 }
 
 .image-side {
